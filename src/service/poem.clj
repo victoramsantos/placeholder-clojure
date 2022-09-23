@@ -5,7 +5,7 @@
 
 (defn list-poems
   []
-  (r.poem/list-poems))
+  @(r.poem/list-poems))
 
 (defn add-poem!
   [content
